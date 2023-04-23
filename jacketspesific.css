@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction:column;
+    height: fit-content;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav{
+    background: #5c84b4;
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.logo1 {
+    width: 100px;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    position: relative;
+    margin-top: 10px;
+    width: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+color: white;
+font-size: 17px ; 
+padding: 7px 13px;
+border-radius: 3px;
+}
+
+
+#check{
+    display: none;
+}
+
+
+  
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5c84b4;
+}
+
+footer section {
+    color: white;
+}
+
+.jakker {
+    width: 200px;
+    ;
+   
+}
+#products {
+    width: 50rem;
+    height: 50rem;
+    background-color: rgb(243, 212, 212);
+    align-content: center;
+    display: grid;
+    grid-template-columns: minmax(15rem, 40rem);
+    grid-template-rows: 30rem;
+    justify-content: center;
+    
+}
+.card {
+display: grid;
+grid-template-columns: minmax(10rem, 20rem) minmax(10rem, 20rem);
+grid-template-rows: 20rem;
+}
+
+.card-left{
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-image-container {
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+}
+
+.card-image-container img {
+    height: 100%;
+}
+
+
+
+.card-right {
+background-color: green;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.card-title {
+
+}
+
+.card-description {
+
+}
+
+.card-price {
+    font-size: 30px;
+
+}
+
+.card-checkout-container{
+    font-size: 25px;
+    background-color: white;
+}
